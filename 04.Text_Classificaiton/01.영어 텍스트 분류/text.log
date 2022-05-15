@@ -1,0 +1,159 @@
+2022-05-06 23:43:51,193 : INFO :  collecting all words and their counts
+2022-05-06 23:43:51,193 : INFO :  PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2022-05-06 23:43:51,420 : INFO :  PROGRESS: at sentence #10000, processed 1261831 words, keeping 152317 word types
+2022-05-06 23:43:51,672 : INFO :  PROGRESS: at sentence #20000, processed 2510155 words, keeping 237995 word types
+2022-05-06 23:43:51,808 : INFO :  collected 275099 word types from a corpus of 3129782 raw words and 25000 sentences
+2022-05-06 23:43:51,808 : INFO :  Loading a fresh vocabulary
+2022-05-06 23:43:51,895 : INFO :  effective_min_count=40 retains 8869 unique words (3% of original 275099, drops 266230)
+2022-05-06 23:43:51,896 : INFO :  effective_min_count=40 leaves 2364403 word corpus (75% of original 3129782, drops 765379)
+2022-05-06 23:43:51,914 : INFO :  deleting the raw counts dictionary of 275099 items
+2022-05-06 23:43:51,919 : INFO :  sample=0.001 downsamples 25 most-common words
+2022-05-06 23:43:51,919 : INFO :  downsampling leaves estimated 2267886 word corpus (95.9% of prior 2364403)
+2022-05-06 23:43:51,931 : INFO :  estimated required memory for 8869 words and 300 dimensions: 25720100 bytes
+2022-05-06 23:43:51,931 : INFO :  resetting layer weights
+2022-05-06 23:43:53,416 : INFO :  training model with 4 workers on 8869 vocabulary and 300 features, using sg=0 hs=0 sample=0.001 negative=5 window=10
+2022-05-06 23:43:54,425 : INFO :  EPOCH 1 - PROGRESS: at 61.91% examples, 1402482 words/s, in_qsize 7, out_qsize 0
+2022-05-06 23:43:55,059 : INFO :  worker thread finished; awaiting finish of 3 more threads
+2022-05-06 23:43:55,062 : INFO :  worker thread finished; awaiting finish of 2 more threads
+2022-05-06 23:43:55,064 : INFO :  worker thread finished; awaiting finish of 1 more threads
+2022-05-06 23:43:55,066 : INFO :  worker thread finished; awaiting finish of 0 more threads
+2022-05-06 23:43:55,066 : INFO :  EPOCH - 1 : training on 3129782 raw words (2267803 effective words) took 1.6s, 1376061 effective words/s
+2022-05-06 23:43:56,074 : INFO :  EPOCH 2 - PROGRESS: at 62.85% examples, 1425791 words/s, in_qsize 7, out_qsize 0
+2022-05-06 23:43:56,637 : INFO :  worker thread finished; awaiting finish of 3 more threads
+2022-05-06 23:43:56,643 : INFO :  worker thread finished; awaiting finish of 2 more threads
+2022-05-06 23:43:56,643 : INFO :  worker thread finished; awaiting finish of 1 more threads
+2022-05-06 23:43:56,651 : INFO :  worker thread finished; awaiting finish of 0 more threads
+2022-05-06 23:43:56,652 : INFO :  EPOCH - 2 : training on 3129782 raw words (2268173 effective words) took 1.6s, 1432001 effective words/s
+2022-05-06 23:43:57,653 : INFO :  EPOCH 3 - PROGRESS: at 62.52% examples, 1426751 words/s, in_qsize 7, out_qsize 0
+2022-05-06 23:43:58,217 : INFO :  worker thread finished; awaiting finish of 3 more threads
+2022-05-06 23:43:58,224 : INFO :  worker thread finished; awaiting finish of 2 more threads
+2022-05-06 23:43:58,230 : INFO :  worker thread finished; awaiting finish of 1 more threads
+2022-05-06 23:43:58,232 : INFO :  worker thread finished; awaiting finish of 0 more threads
+2022-05-06 23:43:58,232 : INFO :  EPOCH - 3 : training on 3129782 raw words (2267912 effective words) took 1.6s, 1436221 effective words/s
+2022-05-06 23:43:59,240 : INFO :  EPOCH 4 - PROGRESS: at 61.53% examples, 1396264 words/s, in_qsize 7, out_qsize 0
+2022-05-06 23:43:59,824 : INFO :  worker thread finished; awaiting finish of 3 more threads
+2022-05-06 23:43:59,826 : INFO :  worker thread finished; awaiting finish of 2 more threads
+2022-05-06 23:43:59,828 : INFO :  worker thread finished; awaiting finish of 1 more threads
+2022-05-06 23:43:59,839 : INFO :  worker thread finished; awaiting finish of 0 more threads
+2022-05-06 23:43:59,839 : INFO :  EPOCH - 4 : training on 3129782 raw words (2268218 effective words) took 1.6s, 1412942 effective words/s
+2022-05-06 23:44:00,840 : INFO :  EPOCH 5 - PROGRESS: at 61.53% examples, 1405157 words/s, in_qsize 7, out_qsize 0
+2022-05-06 23:44:01,427 : INFO :  worker thread finished; awaiting finish of 3 more threads
+2022-05-06 23:44:01,430 : INFO :  worker thread finished; awaiting finish of 2 more threads
+2022-05-06 23:44:01,433 : INFO :  worker thread finished; awaiting finish of 1 more threads
+2022-05-06 23:44:01,442 : INFO :  worker thread finished; awaiting finish of 0 more threads
+2022-05-06 23:44:01,442 : INFO :  EPOCH - 5 : training on 3129782 raw words (2267827 effective words) took 1.6s, 1415256 effective words/s
+2022-05-06 23:44:01,443 : INFO :  training on a 15648910 raw words (11339933 effective words) took 8.0s, 1412914 effective words/s
+2022-05-06 23:44:01,447 : INFO :  saving Word2Vec object under 300features_40minwords_10context, separately None
+2022-05-06 23:44:01,447 : INFO :  not storing attribute vectors_norm
+2022-05-06 23:44:01,447 : INFO :  not storing attribute cum_table
+2022-05-06 23:44:01,624 : INFO :  saved 300features_40minwords_10context
+2022-05-07 00:43:30,858 : WARNING :  AutoGraph could not transform <function Model.make_train_function.<locals>.train_function at 0x7fa361410e60> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: Unknown node type <gast.gast.Assign object at 0x7fa3609f6990>
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+2022-05-07 00:45:24,738 : WARNING :  AutoGraph could not transform <function Model.make_test_function.<locals>.test_function at 0x7fa370a99200> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: closure mismatch, requested ('self', 'step_function'), but source function had ()
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+2022-05-07 01:05:03,373 : WARNING :  AutoGraph could not transform <function Model.make_predict_function.<locals>.predict_function at 0x7fa36f134200> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: closure mismatch, requested ('self', 'step_function'), but source function had ()
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+2022-05-07 11:22:17,050 : INFO :  collecting all words and their counts
+2022-05-07 11:22:17,050 : INFO :  PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2022-05-07 11:22:17,239 : INFO :  PROGRESS: at sentence #10000, processed 1261831 words, keeping 152317 word types
+2022-05-07 11:22:17,469 : INFO :  PROGRESS: at sentence #20000, processed 2510155 words, keeping 237995 word types
+2022-05-07 11:22:17,581 : INFO :  collected 275099 word types from a corpus of 3129782 raw words and 25000 sentences
+2022-05-07 11:22:17,581 : INFO :  Loading a fresh vocabulary
+2022-05-07 11:22:17,673 : INFO :  effective_min_count=40 retains 8869 unique words (3% of original 275099, drops 266230)
+2022-05-07 11:22:17,673 : INFO :  effective_min_count=40 leaves 2364403 word corpus (75% of original 3129782, drops 765379)
+2022-05-07 11:22:17,692 : INFO :  deleting the raw counts dictionary of 275099 items
+2022-05-07 11:22:17,696 : INFO :  sample=0.001 downsamples 25 most-common words
+2022-05-07 11:22:17,696 : INFO :  downsampling leaves estimated 2267886 word corpus (95.9% of prior 2364403)
+2022-05-07 11:22:17,709 : INFO :  estimated required memory for 8869 words and 300 dimensions: 25720100 bytes
+2022-05-07 11:22:17,710 : INFO :  resetting layer weights
+2022-05-07 11:22:19,015 : INFO :  training model with 4 workers on 8869 vocabulary and 300 features, using sg=0 hs=0 sample=0.001 negative=5 window=10
+2022-05-07 11:22:20,030 : INFO :  EPOCH 1 - PROGRESS: at 64.56% examples, 1452981 words/s, in_qsize 7, out_qsize 0
+2022-05-07 11:22:20,531 : INFO :  worker thread finished; awaiting finish of 3 more threads
+2022-05-07 11:22:20,533 : INFO :  worker thread finished; awaiting finish of 2 more threads
+2022-05-07 11:22:20,536 : INFO :  worker thread finished; awaiting finish of 1 more threads
+2022-05-07 11:22:20,537 : INFO :  worker thread finished; awaiting finish of 0 more threads
+2022-05-07 11:22:20,537 : INFO :  EPOCH - 1 : training on 3129782 raw words (2268003 effective words) took 1.5s, 1491996 effective words/s
+2022-05-07 11:22:21,540 : INFO :  EPOCH 2 - PROGRESS: at 67.34% examples, 1532985 words/s, in_qsize 7, out_qsize 0
+2022-05-07 11:22:22,005 : INFO :  worker thread finished; awaiting finish of 3 more threads
+2022-05-07 11:22:22,007 : INFO :  worker thread finished; awaiting finish of 2 more threads
+2022-05-07 11:22:22,009 : INFO :  worker thread finished; awaiting finish of 1 more threads
+2022-05-07 11:22:22,011 : INFO :  worker thread finished; awaiting finish of 0 more threads
+2022-05-07 11:22:22,011 : INFO :  EPOCH - 2 : training on 3129782 raw words (2268220 effective words) took 1.5s, 1540588 effective words/s
+2022-05-07 11:22:23,018 : INFO :  EPOCH 3 - PROGRESS: at 67.34% examples, 1526490 words/s, in_qsize 7, out_qsize 0
+2022-05-07 11:22:23,487 : INFO :  worker thread finished; awaiting finish of 3 more threads
+2022-05-07 11:22:23,490 : INFO :  worker thread finished; awaiting finish of 2 more threads
+2022-05-07 11:22:23,492 : INFO :  worker thread finished; awaiting finish of 1 more threads
+2022-05-07 11:22:23,500 : INFO :  worker thread finished; awaiting finish of 0 more threads
+2022-05-07 11:22:23,500 : INFO :  EPOCH - 3 : training on 3129782 raw words (2267668 effective words) took 1.5s, 1523395 effective words/s
+2022-05-07 11:22:24,503 : INFO :  EPOCH 4 - PROGRESS: at 66.08% examples, 1504435 words/s, in_qsize 7, out_qsize 0
+2022-05-07 11:22:24,987 : INFO :  worker thread finished; awaiting finish of 3 more threads
+2022-05-07 11:22:24,990 : INFO :  worker thread finished; awaiting finish of 2 more threads
+2022-05-07 11:22:24,992 : INFO :  worker thread finished; awaiting finish of 1 more threads
+2022-05-07 11:22:24,993 : INFO :  worker thread finished; awaiting finish of 0 more threads
+2022-05-07 11:22:24,993 : INFO :  EPOCH - 4 : training on 3129782 raw words (2267807 effective words) took 1.5s, 1520112 effective words/s
+2022-05-07 11:22:26,000 : INFO :  EPOCH 5 - PROGRESS: at 67.34% examples, 1527203 words/s, in_qsize 7, out_qsize 0
+2022-05-07 11:22:26,465 : INFO :  worker thread finished; awaiting finish of 3 more threads
+2022-05-07 11:22:26,468 : INFO :  worker thread finished; awaiting finish of 2 more threads
+2022-05-07 11:22:26,471 : INFO :  worker thread finished; awaiting finish of 1 more threads
+2022-05-07 11:22:26,475 : INFO :  worker thread finished; awaiting finish of 0 more threads
+2022-05-07 11:22:26,475 : INFO :  EPOCH - 5 : training on 3129782 raw words (2267694 effective words) took 1.5s, 1531595 effective words/s
+2022-05-07 11:22:26,475 : INFO :  training on a 15648910 raw words (11339392 effective words) took 7.5s, 1520087 effective words/s
+2022-05-07 11:22:26,479 : INFO :  saving Word2Vec object under 300features_40minwords_10context, separately None
+2022-05-07 11:22:26,480 : INFO :  not storing attribute vectors_norm
+2022-05-07 11:22:26,480 : INFO :  not storing attribute cum_table
+2022-05-07 11:22:26,655 : INFO :  saved 300features_40minwords_10context
+2022-05-07 15:00:43,768 : INFO :  collecting all words and their counts
+2022-05-07 15:00:43,768 : INFO :  PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2022-05-07 15:00:44,049 : INFO :  PROGRESS: at sentence #10000, processed 1261831 words, keeping 152317 word types
+2022-05-07 15:00:44,332 : INFO :  PROGRESS: at sentence #20000, processed 2510155 words, keeping 237995 word types
+2022-05-07 15:00:44,463 : INFO :  collected 275099 word types from a corpus of 3129782 raw words and 25000 sentences
+2022-05-07 15:00:44,463 : INFO :  Loading a fresh vocabulary
+2022-05-07 15:00:44,566 : INFO :  effective_min_count=40 retains 8869 unique words (3% of original 275099, drops 266230)
+2022-05-07 15:00:44,566 : INFO :  effective_min_count=40 leaves 2364403 word corpus (75% of original 3129782, drops 765379)
+2022-05-07 15:00:44,588 : INFO :  deleting the raw counts dictionary of 275099 items
+2022-05-07 15:00:44,593 : INFO :  sample=0.001 downsamples 25 most-common words
+2022-05-07 15:00:44,593 : INFO :  downsampling leaves estimated 2267886 word corpus (95.9% of prior 2364403)
+2022-05-07 15:00:44,613 : INFO :  estimated required memory for 8869 words and 300 dimensions: 25720100 bytes
+2022-05-07 15:00:44,613 : INFO :  resetting layer weights
+2022-05-07 15:00:46,256 : INFO :  training model with 4 workers on 8869 vocabulary and 300 features, using sg=0 hs=0 sample=0.001 negative=5 window=10
+2022-05-07 15:00:47,260 : INFO :  EPOCH 1 - PROGRESS: at 52.62% examples, 1201120 words/s, in_qsize 7, out_qsize 0
+2022-05-07 15:00:48,126 : INFO :  worker thread finished; awaiting finish of 3 more threads
+2022-05-07 15:00:48,131 : INFO :  worker thread finished; awaiting finish of 2 more threads
+2022-05-07 15:00:48,137 : INFO :  worker thread finished; awaiting finish of 1 more threads
+2022-05-07 15:00:48,143 : INFO :  worker thread finished; awaiting finish of 0 more threads
+2022-05-07 15:00:48,143 : INFO :  EPOCH - 1 : training on 3129782 raw words (2268146 effective words) took 1.9s, 1202967 effective words/s
+2022-05-07 15:00:49,146 : INFO :  EPOCH 2 - PROGRESS: at 56.70% examples, 1294828 words/s, in_qsize 7, out_qsize 0
+2022-05-07 15:00:49,898 : INFO :  worker thread finished; awaiting finish of 3 more threads
+2022-05-07 15:00:49,905 : INFO :  worker thread finished; awaiting finish of 2 more threads
+2022-05-07 15:00:49,909 : INFO :  worker thread finished; awaiting finish of 1 more threads
+2022-05-07 15:00:49,911 : INFO :  worker thread finished; awaiting finish of 0 more threads
+2022-05-07 15:00:49,911 : INFO :  EPOCH - 2 : training on 3129782 raw words (2268157 effective words) took 1.8s, 1283582 effective words/s
+2022-05-07 15:00:50,918 : INFO :  EPOCH 3 - PROGRESS: at 57.38% examples, 1305462 words/s, in_qsize 7, out_qsize 0
+2022-05-07 15:00:51,602 : INFO :  worker thread finished; awaiting finish of 3 more threads
+2022-05-07 15:00:51,609 : INFO :  worker thread finished; awaiting finish of 2 more threads
+2022-05-07 15:00:51,611 : INFO :  worker thread finished; awaiting finish of 1 more threads
+2022-05-07 15:00:51,613 : INFO :  worker thread finished; awaiting finish of 0 more threads
+2022-05-07 15:00:51,613 : INFO :  EPOCH - 3 : training on 3129782 raw words (2267566 effective words) took 1.7s, 1333373 effective words/s
+2022-05-07 15:00:52,616 : INFO :  EPOCH 4 - PROGRESS: at 58.30% examples, 1330940 words/s, in_qsize 7, out_qsize 0
+2022-05-07 15:00:53,281 : INFO :  worker thread finished; awaiting finish of 3 more threads
+2022-05-07 15:00:53,284 : INFO :  worker thread finished; awaiting finish of 2 more threads
+2022-05-07 15:00:53,286 : INFO :  worker thread finished; awaiting finish of 1 more threads
+2022-05-07 15:00:53,297 : INFO :  worker thread finished; awaiting finish of 0 more threads
+2022-05-07 15:00:53,297 : INFO :  EPOCH - 4 : training on 3129782 raw words (2267790 effective words) took 1.7s, 1347859 effective words/s
+2022-05-07 15:00:54,298 : INFO :  EPOCH 5 - PROGRESS: at 58.30% examples, 1333418 words/s, in_qsize 7, out_qsize 0
+2022-05-07 15:00:54,976 : INFO :  worker thread finished; awaiting finish of 3 more threads
+2022-05-07 15:00:54,979 : INFO :  worker thread finished; awaiting finish of 2 more threads
+2022-05-07 15:00:54,981 : INFO :  worker thread finished; awaiting finish of 1 more threads
+2022-05-07 15:00:54,989 : INFO :  worker thread finished; awaiting finish of 0 more threads
+2022-05-07 15:00:54,989 : INFO :  EPOCH - 5 : training on 3129782 raw words (2267760 effective words) took 1.7s, 1341387 effective words/s
+2022-05-07 15:00:54,989 : INFO :  training on a 15648910 raw words (11339419 effective words) took 8.7s, 1298480 effective words/s
+2022-05-07 15:00:54,993 : INFO :  saving Word2Vec object under 300features_40minwords_10context, separately None
+2022-05-07 15:00:54,993 : INFO :  not storing attribute vectors_norm
+2022-05-07 15:00:54,993 : INFO :  not storing attribute cum_table
+2022-05-07 15:00:55,179 : INFO :  saved 300features_40minwords_10context
